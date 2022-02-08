@@ -5,17 +5,6 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core"; //it is a function
 
 const useStyles = makeStyles({
-  btn: {
-    fontSize: 60,
-    backgroundColor: "violet",
-    "&:hover": {
-      backgroundColor: "blue",
-    },
-  },
-  title: {
-    textDecoration: "underline",
-    marginBottom: 20,
-  },
 });
 
 export default function Create() {
@@ -39,7 +28,7 @@ export default function Create() {
           onClick={() => console.log("you clicked me")}
           type="submit"
           color="secondary"
-          variante="contained"
+          variant="contained"
         >
           Submit
         </Button>
